@@ -33,10 +33,6 @@ header{
     font-weight:900;    
 }
 
-h1{
-    font-weight: bolder;
-}
-
 
 h2, h3  {
     margin-top: 0;
@@ -87,6 +83,10 @@ ul{
 th, td{
     width: 25%;
     text-align: left;
+}
+
+th{
+color: white;    
 }
 
 thead{
