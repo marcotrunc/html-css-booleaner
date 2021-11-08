@@ -1,16 +1,41 @@
-body, figure{
+*{
     margin: 0;
 }
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+  }
 
 header{
     height: 100px;
     background-color: rgba(78,160,255,255);
     background-image: url(../img/pattern.png);
-    background-size: cover;
-    text-align: left bottom;    
+    background-size: 700px;
+    background-position: 121px 301px;
 }
 
 .the-booleaner-logo{
-    border-top: 45px solid transparent;
-    
+    border-top: 45px solid transparent;  
 }
+/* Titolo */
+.title{
+    font-size: 24px;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h3{
+    margin-top: 0;
+    color: rgba(145,145,145,1);
+}
+
+span{
+    color: rgba(103,197,237,1);
+}
+
