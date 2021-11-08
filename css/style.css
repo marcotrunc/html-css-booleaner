@@ -4,7 +4,7 @@
 
 
 .container{
-    width: 80%;
+    width: 70%;
     margin: auto;
     background-color: #fff;
   }
@@ -20,7 +20,7 @@ header{
 .the-booleaner-logo{
     border-top: 45px solid transparent;  
 }
-/* Titolo */
+/* Titolo e sottotitolo*/
 .title{
     font-size: 24px;
 }
@@ -39,3 +39,13 @@ span{
     color: rgba(103,197,237,1);
 }
 
+
+/* Sezione foto */
+
+.tim-photo{
+    margin-top: 10px;
+}
+
+figcaption{
+    font-size: 10px;
+}
