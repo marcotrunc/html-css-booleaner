@@ -1,0 +1,16 @@
+body, figure{
+    margin: 0;
+}
+
+header{
+    height: 100px;
+    background-color: rgba(78,160,255,255);
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    text-align: left bottom;    
+}
+
+.the-booleaner-logo{
+    border-top: 45px solid transparent;
+    
+}
