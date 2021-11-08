@@ -49,3 +49,18 @@ span{
 figcaption{
     font-size: 10px;
 }
+
+/* Paragrafo */
+
+.paragraph{
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+/* lista */
+
+ul{
+    list-style-type: none; 
+    padding-left: 0;       
+    margin-left: 0;        
+}
