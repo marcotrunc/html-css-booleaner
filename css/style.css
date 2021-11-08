@@ -43,7 +43,7 @@ span{
 /* Sezione foto */
 
 .tim-photos{
-    margin-top: 10px;
+    border-top: 10px;
 }
 
 figcaption{
@@ -59,6 +59,10 @@ figcaption{
 
 /* lista */
 
+.list{
+    margin-bottom: 20px;
+}
+
 ul{
     list-style-type: none; 
     padding-left: 0;       
@@ -68,7 +72,19 @@ ul{
 /* tabell */
 
 th, td{
+    width: 25%;
+    text-align: left;
+}
 
+thead{
+    background-color: rgba(32,169,229,1);
+}
+
+.blue-background{
+    background-color: rgba(177,229,242,255);
+}
+.long-cell{
+    width: 50%;
 }
 
 
