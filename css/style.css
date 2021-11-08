@@ -30,7 +30,7 @@ h1{
     margin-bottom: 0px;
 }
 
-h3{
+h2, h3{
     margin-top: 0;
     color: rgba(145,145,145,1);
 }
@@ -42,7 +42,7 @@ span{
 
 /* Sezione foto */
 
-.tim-photo{
+.tim-photos{
     margin-top: 10px;
 }
 
@@ -63,4 +63,37 @@ ul{
     list-style-type: none; 
     padding-left: 0;       
     margin-left: 0;        
+}
+
+/* tabell */
+
+th, td{
+
+}
+
+
+/* Cose che potrebbero interessarti */
+
+.monitor, .graph{
+    height: 150px;
+    width: 250px;
+    border-bottom: 10px solid white;
+}
+
+.monitor{
+    background-image:url(../img/monitor.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.graph{
+    background-image:url(../img/graph.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+b{
+    border-top: 5px solid transparent;
+    border-left: 5px solid transparent;
+    color: white;
 }
